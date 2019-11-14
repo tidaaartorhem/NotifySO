@@ -1,0 +1,6 @@
+ <Gather action="http://0f29292c.ngrok.io/voice" method="POST">
+        <Say>
+           Please press 1 to confirm your subscription
+        </Say>
+    </Gather>
+    <Say>We didn't receive any input. Goodbye!</Say>

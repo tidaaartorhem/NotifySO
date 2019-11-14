@@ -2,8 +2,8 @@ const User = require("../user.model");
 const sendEmail = require("./email.send");
 
 const templates = require("./email.templates");
-const accountSid = "AC5ae90d4e25eb8efb0458f349014a4d88";
-const authToken = "2dd2aa99f5d60418a7d73ce27133f761";
+const accountSid = "XXXXXXXX";
+const authToken = "XXXXX";
 const client = require("twilio")(accountSid, authToken);
 
 var express = require("express");
